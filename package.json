@@ -1,0 +1,23 @@
+{
+  "name": "hands-on-rabbitmq",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "consumer": "ts-node consumer.ts",
+    "producer": "ts-node publisher.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/amqplib": "^0.10.1",
+    "@types/node": "^18.15.3",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "ts-node": "^10.9.1"
+  }
+}
