@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "consumer": "ts-node consumer.ts",
-    "producer": "ts-node publisher.ts"
+    "consumer-ex1": "ts-node example-1/consumer.ts",
+    "producer-ex1": "ts-node example-1/producer.ts",
+    "consumer-ex2": "ts-node example-2/consumer.ts",
+    "producer-ex2": "ts-node example-2/producer.ts"
   },
   "keywords": [],
   "author": "",
