@@ -8,7 +8,9 @@
     "consumer-ex1": "ts-node example-1/consumer.ts",
     "producer-ex1": "ts-node example-1/producer.ts",
     "consumer-ex2": "ts-node example-2/consumer.ts",
-    "producer-ex2": "ts-node example-2/producer.ts"
+    "producer-ex2": "ts-node example-2/producer.ts",
+    "producer-ex3": "ts-node example-3/producer.ts",
+    "consumer-ex3": "ts-node example-3/consumer.ts"
   },
   "keywords": [],
   "author": "",
